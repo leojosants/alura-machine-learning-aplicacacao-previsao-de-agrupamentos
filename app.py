@@ -1,12 +1,12 @@
 
 import streamlit as st__streamlit
 import pandas as pd__pandas
-import joblib as joblib__joblib
+import joblib as joblib
 
 
-encoder = joblib__joblib.load("./2-bases-de-dados-tratadas/encoder.pkl")
-scaler = joblib__joblib.load("./2-bases-de-dados-tratadas/scaler.pkl")
-kmeans = joblib__joblib.load("./2-bases-de-dados-tratadas/kmeans.pkl")
+encoder = joblib.load("./2-bases-de-dados-tratadas/encoder.pkl")
+scaler = joblib.load("./2-bases-de-dados-tratadas/scaler.pkl")
+kmeans = joblib.load("./2-bases-de-dados-tratadas/kmeans.pkl")
 
 st__streamlit.title("Grupos de interesse para marketing")
 
