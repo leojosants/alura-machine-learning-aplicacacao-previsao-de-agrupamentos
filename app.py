@@ -1,7 +1,7 @@
 
 import streamlit as st__streamlit
 import pandas as pd__pandas
-import joblib as joblib
+import joblib
 
 
 encoder = joblib.load("./2-bases-de-dados-tratadas/encoder.pkl")
